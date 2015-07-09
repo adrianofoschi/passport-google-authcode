@@ -1,24 +1,36 @@
 {
   "name": "passport-google-authcode",
-  "version": "0.1.1",
-  "description": "Passport strategy for authenticating with Google one time authorization code using the OAuth 2.0 API.",
-  "author": { "name": "Shobhit Singhal", "email": "shobhitsinghal624@gmail.com" },
+  "version": "2.2.0",
+  "description": "Facebook authcode authentication strategy for Passport",
+  "main": "index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/shobhitsinghal624/passport-google-authcode.git"
+    "url": "git://github.com/drudge/passport-google-authcode.git"
   },
+  "keywords": [
+    "passport",
+    "google",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Adriano Foschi",
+    "email": "hadokee@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Eugene Obrezkov",
+      "email": "ghaiklor@gmail.com"
+    }
+  ],
+  "license": "MIT",
   "bugs": {
-    "url": "http://github.com/shobhitsinghal624/passport-google-authcode/issues"
+    "url": "http://github.com/drudge/passport-google-authcode/issues"
   },
-  "main": "./lib/passport-google-authcode",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
-  },
-  "engines": { "node": ">= 0.4.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
-  "keywords": ["passport", "google", "auth", "authorization", "code", "authcode", "authn", "authentication", "identity"]
+    "passport-oauth2": "^1.0.0"
+  }
 }
