@@ -1,7 +1,7 @@
 {
   "name": "passport-google-authcode",
   "version": "2.2.0",
-  "description": "Facebook authcode authentication strategy for Passport",
+  "description": Google authcode authentication strategy for Passport",
   "main": "index.js",
   "scripts": {},
   "repository": {
